@@ -1,2 +1,2 @@
 # flask-realblog
-blog demo by flask
+Simple blog driven by flask

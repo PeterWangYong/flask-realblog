@@ -1,0 +1,13 @@
+{% if posts %}
+    {% for post in posts %}
+        <h3 class="text-primary"><a href="{{ url_for('web_blog.show_post', post_id=post.id) }}">{{ post.title }}</a></h3>
+        <p>
+            {#  striptags 过滤文章正文的html标签  truncate 截取正文开头一部分(默认255字符)          #}
+            {{ post.body | striptags | truncate }}
+        </p>
+    {% endfor %}
+{% else %}
+    <div>
+        <h5 class="text-primary">还没有文章哦</h5>
+    </div>
+{% endif %}
