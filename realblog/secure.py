@@ -11,8 +11,8 @@ class BaseSecure:
     MAIL_SERVER = 'smtp.163.com'
     MAIL_PORT = 465
     MAIL_USE_SSL = True
-    MAIL_USERNAME = 'asdftttt@163.com'
-    MAIL_PASSWORD = 'xiongying2014'
+    MAIL_USERNAME = 'xxxxxxxxxxxxx'
+    MAIL_PASSWORD = 'xxxxxxxxxxxx'
     MAIL_DEFAULT_SENDER = ('Realblog', MAIL_USERNAME)
 
 
